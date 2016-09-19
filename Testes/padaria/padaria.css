@@ -1,0 +1,40 @@
+body{
+  background: #f5f6dc;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+  font-style: italic;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.sobre {
+  font-style: italic;
+  font-size: medium;
+  text-align: center;
+      width: 70%;
+      margin: 50px auto;
+}
+
+.produtos {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.produto {
+width: 175px;
+height: 150px;
+margin: 0px 5px 5px 0;
+border: thin solid;
+border-radius: 15px;
+}
+
+footer {
+  width: 98%;
+  text-align: center;
+  padding: 1%;
+  margin-top: 20px;
+}
