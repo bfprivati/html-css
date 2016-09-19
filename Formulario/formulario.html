@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Teste Formulario </title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="formulario.css" />
+  </head>
+
+  <body>
+    <form action="" method="post">
+      <!-- Entrada de nome-->
+      <label for="nome">Nome: </label>
+      <input id="nome" type="text" placeholder="Digite seu nome" name="nome" />
+      <!-- Botão radio (um ou outro) -->
+      <label for="opcao"> Você gostou desse conteúdo? </label>
+      <input id="opcao" type="radio" name="opcao" value="Sim" /> Sim
+      <input id="opcao" type="radio" name="opcao" value="Não" /> Não
+      <!-- Botão que pode ser marcado mais que 1 -->
+      <label for="linguagem">Você quer aprender mais sobre:</label>
+      <input type="checkbox" name="html" /> HTML
+      <input type="checkbox" name="css" /> CSS
+      <!-- Opção de comentários de texto-->
+      <textarea name="msg" placeholder="Envie seu comentário"></textarea>
+      <!-- Opção de enviar dados-->
+      <input type="submit" value="Enviar" />
+
+
+    </form>
+  </body>
+</html>
+
+<!-- for="" id="" , clica na label, o cursor vai pro campo relativo -->
+<!-- get: mostra o value recebido; post: oculta o value recebido -->
+<!-- checked="checked" : valor marcado por padrão -->
+<!-- placeholder : comentário a ser mostrado o que deve ser digitado na box -->
+<!-- padding: aumenta as proporções ; margin: aumenta as margens -->
