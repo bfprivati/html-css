@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+	font-family: arial;		/* desenho da fonte */
+	font-size: 10pt;		/* tamanho da fonte */
+}
+p{
+	text-align: justify;	/* alinhamento do texto */
+	text-indent: 20px;		/* identação do texto */
+}
+article h1{
+	font-size: 15pt;
+	color: #ffffff;
+	background-color: rgba(0,0,0,.3);	/*red, green, blue, transparência */
+	padding: 5px;
+	margin: 0px;
+}
+article h2{
+	font-size: 12pt;
+	color: #888888;
+	margin: 0px;
+}
+article{
+	margin-bottom: 800px;		/* margem para não aparecer 2 textos juntos */
+}
+
+img.img-dir{
+	display: block;
+	float: right;
+	margin-left: 7px;
+}
+img.img-esq{
+	display: block;
+	float: left;
+	margin-right: 7px;
+}
